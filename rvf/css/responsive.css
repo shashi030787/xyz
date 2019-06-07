@@ -1,0 +1,249 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on : 08/11/2016. 
+    Theme Name : CHARITY.
+    Description: CHARITY || Responsive html5 template.
+    Version    : 1.0.
+    Author     : @Template_mr.
+   
+*/
+
+
+
+@media (min-width: 992px) {
+	.container {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+@media (max-width: 1366px) {
+    .scroll-top {bottom: 30px; right:30px;}
+}
+@media (max-width: 1199px) {
+  .our-causes .single-cause-wrapper .img-holder img,
+  .our-causes .single-cause-wrapper .text.float-left {width: 100%;}
+  .our-causes .single-cause-wrapper .img-holder {float:none;}
+  .our-causes .single-cause-wrapper .text.fix a.p-color-bg {margin-top: 25px;}
+  .our-blog .left-side,.our-blog .right-side {width: 100%; padding-left: 0;}
+  .our-blog .img img {width: 100%;}
+  .our-blog .post-small .post {width: 78%; padding-bottom: 62px;}
+  .our-blog .post-small .img {width: 22%;}
+}
+/*(max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  .main-menu .search-form .close-search {right: 15px;}
+  header.main-header .left-side,header.main-header .right-side {width: 100%;text-align: center;}
+  header.main-header .right-side {margin-top: 30px;}
+  header.main-header .right-side li {float:right;}
+  header.main-header .right-side li.volunter {float:left;}
+  .main-menu button.search-button {margin: 0;top:34px;right: 15px;}
+  .main-menu nav {margin:20px 0 0 0; width: 100%; clear:both;}
+  .main-menu .nav>li {margin: 0;}
+  .main-menu.fixed .logo,.main-menu.fixed button.search-button {display: none;}
+  .main-menu.fixed nav {margin: 0;}
+  .short-banner .top-text {padding: 33px 20px 45px 20px;text-align: center;}
+  .short-banner .top-text .float-left {width: 100%;float:none;}
+  .short-banner .top-text a {float:none;}
+  .tow-column-text .float-left {padding: 28px 15px 45px 15px;}
+  .emergency-cause .left-side,.emergency-cause .right-side {width: 100%;margin-top: 60px;}
+  .emergency-cause .right-side .text-wrapper:before {display: none;}
+  .page-middle-banner p,.our-staff .single-staff .img img,.up-coming-events .become-help .img-box img {width: 100%;}
+  .why-choose-us .choose-us>div {margin-bottom: 40px;}
+  .why-choose-us p {margin-right: 0;}
+  .our-staff .single-staff {margin-bottom: 30px;}
+  .client-slider-section .item-wrapper {width: 85%;}
+  .up-coming-events .become-help {margin-top: 40px;}
+  .up-coming-events .become-help.home-3-fix {margin: 0 0 40px 0;}
+  footer .section-middle {width: 100%;margin-top: 50px;}
+  footer .left-side, footer .right-side {width: 50%;}
+  footer .left-side ul li a,footer .right-side ul li a {line-height: 20px;}
+  .why-choose-us .choose-us .left-space-fix {margin-bottom: 0;padding-left: 0;margin-top: 40px;}
+  .up-coming-events .right-space-fix {padding-right: 0;}
+  .theme-left-half-section {width: 100%;padding-right: 0;margin-bottom: 40px;}
+  .sidebar {width: 50%; float:left;}
+  .sidebar .donate-slider img {width: 100%;}
+  .our-gallery.gallery-v4 .gallery-menu-wrapper ul.mixitUp-menu li {margin: 5px 3px 5px 3px !important;}
+  #main-banner-slider .tp-caption h1 {font-size: 60px;}
+
+}
+/*(max-width: 991px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  header.main-header .right-side li.volunter a {margin-right: 0;}
+  .main-menu .nav>li>a {padding: 0 10px;}
+  .short-banner .top-text {padding: 33px 20px 45px 20px;}
+  .tow-column-text .float-left {padding: 28px 55px 45px 55px;}
+  .emergency-cause .right-side {margin-top: 97px;}
+  .page-middle-banner p {width: 88%;}
+  .why-choose-us p {margin-right: 20px;}
+  .our-gallery .right-side {width: 80%; padding-left: 50px;}
+  .our-gallery .left-side {width: 20%;}
+  .client-slider-section .item-wrapper {width: 73%;}
+  .up-coming-events .become-help .button-wrapper a {margin: 0;}
+  .up-coming-events .become-help .img-box .opacity {padding-top: 35px;}
+  .why-choose-us .choose-us .left-space-fix {padding-left: 10px;}
+  .sidebar .sidebar-content  #donate-carousel {padding: 0 10px;}
+  .sidebar .help-wedgit .opacity,.sidebar .cause-category {padding-left: 20px;}
+  .gallery-page.gallery-v2 .item {min-height: 276px;}
+  .our-gallery.gallery-v4 .item {min-height: 247px;}
+  .sidebar .sidebar-recent-post {padding-left: 20px;}
+  .our-blog.blog-v3 .post-small .img {width: 40%;}
+  .our-blog.blog-v3 .post-small .post {width: 60%;padding-bottom: 34px;}
+  .blog-details-page .blog-date .post-info li i {width: 40px;height: 40px;line-height: 36px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu .nav>li>a {line-height: 95px;}
+  .main-menu .nav>li {display: inline-block; float:none;}
+  .main-menu .nav {text-align: center;}
+  .main-menu .navbar-nav>li.dropdown-holder .sub-menu li a {text-align: left;}
+  .main-menu .navbar-nav>li.dropdown-holder .sub-menu {width: 197px;}
+  .our-causes .single-cause-wrapper .text {padding-left: 15px;padding-right: 15px;}
+  .our-gallery .left-side {width: 30%;}
+  .our-gallery .right-side {width: 70%;padding-left: 30px;}
+  .up-coming-events .become-help .img-box .opacity {padding-top: 120px;}
+  .our-blog .post-small .img {min-height: 176px;}
+  .inner-banner .opacity {padding-top: 270px;}
+  .gallery-page.gallery-v2 .item {min-height: 290px;}
+  .our-gallery.gallery-v4 .item {min-height: 179px;}
+  .error-page .wrapper {width: 90%;}
+  .our-blog.blog-v3 .post-small .img {width: 40%;}
+  .our-blog.blog-v3 .post-small .post {width: 60%;padding-bottom: 72px;}
+  
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .main-menu.fixed {max-height: 100%;overflow-y:auto;}
+  .main-menu .container {padding: 0;}
+  .main-menu .logo {margin-top: 20px; margin-left: 15px;}
+  .main-menu button.search-button {top:15px; right: 15px;}
+  .main-menu nav ul li.dropdown-holder .fa {display: block;}
+  .main-menu .navbar-nav>li.dropdown-holder .sub-menu {
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+    opacity: 1;
+    visibility: visible;;
+    position: static;
+    box-shadow: none;
+    width: 100%;
+    display: none;
+  }
+  .main-menu .nav>li>a,.main-menu.fixed .nav>li>a {line-height: 42px;font-size: 14px;}
+  .main-menu .navbar-nav>li.dropdown-holder .sub-menu li a {line-height: 37px;}
+  .main-menu .nav>li>a:before {width: 0;height: 100%;}
+  .main-menu .nav>li:hover>a:before, .main-menu .nav>li.current-active>a:before,
+  .main-menu .nav>li>a:focus:before, .main-menu .nav>li>a:hover:before {width: 100%;}
+  header.main-header .left-side li,header.main-header .left-side li:nth-child(2) {margin-bottom: 15px;}
+  .emergency-cause .right-side .col-xs-12 {margin-bottom: 25px;}
+  .our-gallery .left-side {width: 100%;}
+  .our-gallery .gallery-menu-wrapper ul {text-align: center;}
+  .our-gallery .gallery-menu-wrapper ul li {display: inline-block;}
+  .our-gallery .gallery-menu-wrapper ul li a {line-height: 42px;padding: 0 13px; margin: 10px 4px; font-size: 14px;}
+  .our-gallery .right-side {width: 100%;padding-left: 0;padding-top: 50px;}
+  .client-slider-section .item-wrapper img {position: static; margin: 0 auto 15px auto;}
+  .client-slider-section .item-wrapper {width: 95%;padding-right: 15px; padding-left: 15px;}
+  .our-blog .post-small .img,.our-blog .post-small .post,.subscribe-now form input,.our-blog.blog-v3 .post-small .post {width: 100%;}
+  .subscribe-now form button {display: block;margin: 20px auto 0 auto;}
+  .get-in-touch .contact-address .single-content {text-align: center;}
+  .get-in-touch form h5 {margin-top: 70px;}
+  #donate .modal-content {width: 95%; margin: 30px auto;}
+  #donate .donate-amount .donate-price {width: 25%; margin: 0;border:1px solid #fff;}
+  #donate .modal-content form input.donate-amount-handelar {width: 100%;margin-top: 20px;}
+  .gallery-page.gallery-v2 .item-large,.gallery-page.gallery-v2 .item-small,.gallery-page .item img {width: 100%;}
+  .our-gallery .gallery-menu-wrapper ul.mixitUp-menu {text-align: center;}
+  .our-gallery .gallery-menu-wrapper ul.mixitUp-menu li {display: inline-block;margin: 0 4px 10px 4px;padding: 0 15px;line-height: 42px;}
+  .our-gallery.gallery-v4 .item {width: 100% !important; min-height: auto;}
+  .staff-profile .left-side,.staff-profile .right-side {width: 100%;}
+  .staff-profile .left-side img {margin: 0 auto;}
+  .staff-profile .right-side {padding: 40px 0 0 0;}
+  .error-page .wrapper {width: 100%;}
+  .blog-details-page .blog-date .post-info {padding-left: 0;margin-top: 20px; float:none;}
+  .blog-details-page .blog-date .post-info li {margin-top: 10px;}
+  .blog-details-page .blog-date .box {float:none;}
+  .blog-details-page .blog-content .next-blog-item .wrapper {margin-left: -15px;margin-right: -15px;}
+  .blog-details-page .blog-content .next-blog-item .wrapper .single-item {padding-left: 15px;padding-right: 15px;}
+  #main-banner-slider .tp-caption h1 {font-size: 40px;}
+  #main-banner-slider .tp-caption h5 {font-size: 20px;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+  .get-in-touch #success,
+  .get-in-touch #error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+    margin:0;
+  }
+  .sidebar {width: 100%;}
+}
+
+@media (max-width: 600px) {
+  .event-details-page .event-schedule .map-location {width: 100%;margin-bottom: 40px;}
+  .event-details-page .event-schedule .event-time {width: 100%;padding-left: 0;}
+  .blog-details-page .blog-content .author-text .text {width: 100%;margin: 0;}
+  .blog-details-page .blog-content .author-text .img {width: 100%;margin-bottom: 20px;}
+  .blog-details-page .blog-content .author-text .img img {margin: 0 auto;}
+  .blog-details-page .blog-content .next-blog-item .wrapper .single-item {width: 100%;margin: 0 auto 30px auto;}
+  .blog-details-page .blog-content .next-blog-item .wrapper .single-item img {width: 100%;}
+}
+
+@media (max-width: 550px) {
+  .tow-column-text .float-left {width: 100%;}
+  footer .left-side, footer .right-side,footer .left-side.float-right,
+  footer .right-side.float-left {width: 100%;text-align: center;margin-top: 40px;}
+  footer .left-side ul li a,footer .right-side ul li a {margin: 0 6px;}
+  .cause-details-page .cause-main-content .text {width: 95%; padding-left: 20px;padding-right: 20px;margin-top: -20px;}
+  #main-banner-slider .tp-caption h1 {font-size: 30px;}
+  #main-banner-slider .tp-caption h5 {font-size: 16px;}
+  #main-banner-slider .tp-caption span {font-size: 18px;}
+}
+
+@media (max-width: 500px) {
+  #donate .modal-content form button.submit,#donate .modal-content form a.paypal {float:none; margin: 10px auto;display: block;}
+}
+
+@media (max-width: 480px) {
+  .up-coming-events .become-help .button-wrapper a {display: block;margin: 10px auto;}
+  .gallery-v3 .item-default,.gallery-v3 .item-small,.gallery-v3 .item-large {width: 100%;}
+  .tp-bullets {display: none !important;}
+}
+
+@media (max-width: 450px) {
+  .emergency-cause .right-side a {display: block;margin: 10px auto;}
+  .our-gallery .right-side .col-xs-6,.our-staff .col-xs-6 {width: 100%;}
+  .up-coming-events .become-help .img-box .opacity {position: relative; padding-bottom: 50px;}
+  .event-details-page .event-date a {float:none;margin:20px 0 0 0;}
+  .event-details-page .event-date .box {float:none;}
+  .scroll-top {bottom: 10px;right:5px;}
+}
+
+@media (max-width: 420px) {
+  header.main-header .right-side li.volunter {float:none; display: block;}
+  header.main-header .right-side li {float: none;}
+  header.main-header .right-side li.icon a {margin: 15px 6px 0 6px;}
+  header.main-header .right-side li.volunter a {margin-right: 0;}
+  .our-causes .single-cause-wrapper .text .target-ammount span,.cause-details-page .cause-main-content .text .target-ammount span {float:none; text-align: center;}
+  .our-causes .single-cause-wrapper .text .target-ammount span.float-right,.cause-details-page .cause-main-content .text .target-ammount span.float-right {margin-top: 20px;}
+  .up-coming-events .coming-events .col-xs-6 {width: 100%;}
+  #donate .modal-content form {padding: 40px 15px;}
+  #donate .modal-content .donate-heading h6 {font-size: 18px;padding: 10px;}
+  .cause-details-page .cause-main-content .post-info li {margin: 0 0 10px 0; display: block;}
+  .faq-page h5:before {display: none;}
+  .sidebar .sidebar-recent-post {padding-left: 20px;}
+}
+
+@media (max-width: 380px) {
+  .error-page h5 {font-size: 60px;}
+  .error-page h4 {font-size: 157px;}
+  #main-banner-slider .tp-caption {display: none;}
+}
